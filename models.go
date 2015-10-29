@@ -9,6 +9,7 @@ import (
 	// support mysql and postgresql
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
+	_ "github.com/mattn/go-sqlite3"
 )
 
 // Model facilitate database interactions, supports postgres, mysql and foundation
